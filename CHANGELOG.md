@@ -1,3 +1,6 @@
+## Version 0.4.1 (2023-09-13)
+- Replace sklearn by scikit-learn
+
 ## Version 0.4.0 (2021-10-22)
 - Add some basic unit tests.
 - Add `compute_from_distance_matrix` for CFOF and FastCFOF.

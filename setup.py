@@ -5,15 +5,15 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="cfof",
-    version="0.4.0",
-    author="Ghiles Meddour",
-    author_email="ghiles.meddour@munic.io",
+    version="0.4.1",
+    author="Lyès Mestiri",
+    author_email="lyes.mestiri@hotmail.fr",
     description="Concentration Free Outlier Factor",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/ghilesmeddour/cfof",
+    url="https://github.com/LyesMestiri/cfof",
     project_urls={
-        "Bug Tracker": "https://github.com/ghilesmeddour/cfof/issues",
+        "Bug Tracker": "https://github.com/LyesMestiri/cfof/issues",
     },
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -25,6 +25,6 @@ setuptools.setup(
     install_requires=[
         "numpy",
         "scipy",
-        "sklearn",
+        "scikit-learn",
     ],
 )
